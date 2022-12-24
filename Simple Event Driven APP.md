@@ -6,6 +6,8 @@ item arrived in its queue, it will trigger Lambda function and send it to Dynamo
 !["Architecture of simple event driven application"](images/simple_event.drawio.png)
 <img title="a title" alt="Architecture of a simple event driven application" src="/images/simple_event.drawio.png">
 
+![simple_event drawio](https://user-images.githubusercontent.com/99777969/209440119-8515c53d-e9e8-434a-804a-e0b9569b6e48.png)
+
 ## **STEPS**
 ### 1. Install AWS CLI and configure for the AWS account
 - Use your account in AWS 
