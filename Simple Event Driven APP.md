@@ -1,9 +1,10 @@
-In this project I have created a simple serverless event-driven app using AWS SQS, Lambda and DynamoDB. 
-After completing this project, I can send messages using AWS CLI to AWS SQS and whenever SQS has any 
-item arrived in its queue, it will trigger Lambda function and send it to DynamoDB table and CW logs.
+This project creates a simple serverless event-driven app using AWS SQS, Lambda and DynamoDB. 
+Here we are able to send messages using AWS CLI to AWS SQS and whenever SQS has any 
+item arrived in its queue, it will trigger Lambda function and send it to DynamoDB table and CloudWatch logs.
 
 ---
 ![simple_event drawio](https://user-images.githubusercontent.com/99777969/209440119-8515c53d-e9e8-434a-804a-e0b9569b6e48.png)
+
 
 ## **STEPS**
 ### 1. Install AWS CLI and configure for the AWS account
