@@ -3,9 +3,6 @@ After completing this project, I can send messages using AWS CLI to AWS SQS and 
 item arrived in its queue, it will trigger Lambda function and send it to DynamoDB table and CW logs.
 
 ---
-!["Architecture of simple event driven application"](images/simple_event.drawio.png)
-<img title="a title" alt="Architecture of a simple event driven application" src="/images/simple_event.drawio.png">
-
 ![simple_event drawio](https://user-images.githubusercontent.com/99777969/209440119-8515c53d-e9e8-434a-804a-e0b9569b6e48.png)
 
 ## **STEPS**
