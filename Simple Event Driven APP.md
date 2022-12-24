@@ -25,7 +25,7 @@ item arrived in its queue, it will trigger Lambda function and send it to Dynamo
 ### 4. Go to AWS Lambda and create function
 - Type Name: `productVisitsDataHandler`
 - Select Runtime: `Node.js 12.x`
-- From Role section select : create new role from templates	
+- From Role section select : `create new role from templates`
 - Put Role name as  `lambdaRoleForSQSPermissions`
 - We will add two policies for this role : `Simple microservice permissions` and `Amazon SQS poller permissions` and create function
 - After creating Lambda function we will upload a zip file . In the action menu there is a `upload` option , select zip file there.
@@ -42,7 +42,7 @@ If it returna something with message ID , it means it is working
 ### 6. Configure SQS to trigger Lambda function
 - Go to SQS queue and go to the `ProductVisitsDataQueue`. At the right side there is option from poll messages. Select `Poll message`.   
    - One message will be received . If we click on the message we can the details of the message including the message of the body  
-   - We can do this multiple times changing the command in AWS CLI . For example instead of message-body-1 we can type message -body-2 and so on.
+   - We can do this multiple times changing the command in AWS CLI (as shown in step 5). For example instead of `message-body-1` we can type `message -body-2` and so on.
 - Go to `Lambda trigger` and configure Lambda function . Specify Lambda function with name: `productVisitsDataHandler`
 - Now again poll for messages and we will see no message is receiving . This is because we have configured Lambda function and it is now sending the messages in DynamoDB table.
 
