@@ -1,4 +1,4 @@
-This project creates a simple serverless event-driven app using AWS SQS, Lambda and DynamoDB. 
+This project creates a basic serverless event-driven app using AWS SQS, Lambda and DynamoDB. 
 Here we are able to send messages using AWS CLI to AWS SQS and whenever SQS has any 
 item arrived in its queue, it will trigger Lambda function and send it to DynamoDB table and CloudWatch logs.
 
